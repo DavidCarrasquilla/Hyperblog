@@ -15,6 +15,12 @@
 
             <p>Y este es el parrafo de inicio donde vamos a explicar las cosas 
                 increibles que se pueden hacer con ramas.</p>
+            <p>Para que puedas hacer un merge y git lo reconozca como tal, tienes que tener cambios tanto en el master como en la rama
+            que se quiere fusionar con el master. Digamos que desde tu master creaste la rama “cabecera” , realizas tus cambios y
+            haces tus commits todo normal. Después quieres llevar tus cambios a tu master; te colocas en tu master e invocas el
+            comando git merge cabecera. Lo que va a pasar es que git va a tomar el ultimo commit de la rama cabecera y lo va a usar
+            para crear el commit mas reciente de master, por lo que la hacer git log ese “merge” no saldrá como un merge si no como
+            un commit.</p>
         </div>
     </div>
     
